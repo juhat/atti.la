@@ -1,0 +1,27 @@
+<!doctype html>
+<html class="no-js" lang="hu">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title><%= current_page.data.title || "Juhász Attila - személyre szabott közös munka" %></title>
+    <meta name="description" content="Személyre szabott közös munka - coaching szemléletű tanácsadás">
+
+    <meta property="og:title" content="Juhász Attila - személyre szabott közös munka">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="https://atti.la">
+    <meta property="og:image" content="">
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <%= partial 'layouts/header' %>
+
+    <%= yield %>
+
+    <%= partial 'layouts/footer' %>
+  </body>
+
+</html>
