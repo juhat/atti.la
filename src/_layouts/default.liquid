@@ -13,9 +13,7 @@
 
     <body class="{{ page.layout }} {{ page.page_class }}">
         {% render "navbar", metadata: site.metadata, page: page %}
-        <main>
-            {{ content }}
-        </main>
+        {{ content }}
         {% render "footer", metadata: site.metadata %}
     </body>
 </html>
