@@ -1,0 +1,65 @@
+actions:
+  order:
+    title: Foglalj ingyenes online konzultációt!
+    url: https://savvycal.com/juhat/elso-coaching
+  know_more:
+    title: Tudj meg többet!
+    url: /coaching-szemleletu-tanacsadas/
+
+headline:
+  title: Nem vagy egyedül a céljaid felé haladó úton
+  description: A közös munka során a coaching szemléletű tanácsadás és az önismereti munka személyre szabott elegyét kínálom. Egy ingyenes konzultációs alkalom után, majd 4-6 alkalom marad arra, hogy lerakjuk a közös munka kereteit. Ezek az alkalmak tökéletesek arra, hogy átbeszéld velem azt, hogy hova tartasz.
+
+offers:
+  items:
+    - title: Coaching szemléletű tanácsadás
+      description: Vegyél részt egy megoldás fókuszú beszélgetés sorozatban velem! Meghallgatlak, visszajelzek, követlek és segítek tartani az irányt.
+    - title: Önismereti munka
+      description: Minden változás visszajelzéssel jár. Minden új tudás hozzásegíthet téged, hogy önazonosabb és boldogabb lehess. Ezen dolgozunk majd.
+    - title: Relaxáció
+      description: Van amikor erőből nem megy. Relaxációs technikákkal segítek neked feltöltődni, hogy arra fókuszálhasd a figyelmed és az energiád amire szükséges.
+
+expectations:
+  title: Mi vár rád a ha velem dolgozol?
+  description: A lelki személyi edződ leszek. Azon dolgozom veled, hogy az ellenálló képességed nőjjön, az előtted álló lehetőségek gyarapodjanak és haladj az úton ami a sajátod.
+  items:
+    - title: Teret kapsz a növekedéshez
+    - title: Mélyül az önismereted, segítek rálátni önmagadra
+    - title: Melletted állok, amikor elindulsz
+    - title: Meghallgatlak és megértelek ítélkezés nélkül
+    - title: A választási lehetőségeid száma nőni fog
+    - title: Megünneplem veled a sikereket
+
+testimonials:
+  - description: Attilával a közös folyamat során mindig azt éreztem, hogy figyel rám és őszintén érdekli, hogy hol tartok az életemben. Kísérő volt az utamon úgy, hogy közben sosem ítélkezett. Egy nehéz időszakomban adott olyan támogatást, ami segített kicsit tisztázni a folyamatokat, érzéseket, előttem álló feladatokat. Sokkal könnyebb lélekkel jöttem el az alkalmakról, mint mielőtt odamentem.
+  - description: Hálás vagyok Attila nyitott, megtartó figyelméért, amivel végig érzékenyen kísért a saját utamon, mégis ügyesen terelt, s mederben tartott, hogy végül a lehető leghatékonyabban érjem el az első ülésen kitűzött célom. Számomra nagyon hasznos s gyógyító is volt egyben Attila támogatása, segítsége abban, hogy megtaláljam magamban az új irányt s az ahhoz szükséges eszközöket.
+
+topics:
+  title: Ezekkel a témákkal dolgoztam már, hozd el a sajátod
+  subtitle: Témáim
+  items:
+    - title: Elakadások, nehézségek
+      description: Van célod, de nehéz elindulni. Eddig minden jól ment, de most hirtelen nem tudod merre van előre. Nem lenne rossz egy kis külső segítség.
+    - title: Karrierváltásban vagyok
+      description: Ha úgy érzed, hogy nehéz dolog mozgó járművek között ugrálni, nem vagy egyedül. Segítek, hogy körültekintőbben és ügyesebben tudj váltani.
+    - title: Mit kezdjek az életemmel?
+      description: Vannak pillanatok amikor megéri megállni és újratervezni. Ilyenkor hasznos ha valaki melletted van amíg kifújod magad.
+    - title: Önnállósodás, vállalkozás indítás
+      description: Saját lábra állni szakmailag hatalmas dolog. Meglepő módon önismereti vetülete is van. Kell is hozzá és lesz is tőle.
+    - title: Vezetőnek lenni
+      description: Vezetővé nem születünk, hanem válunk. Ehhez rengeteg önreflexióra és humorra van szükség.
+    - title: Apa és férfi szerepek
+      description: A természet nem véletlenül ad kilenc hónapot a szülőknek a felkészülésre. Vajon mit kell tenni, hogy a férfiből a gyerekkel együtt megszülethessen az apa?
+
+pricing:
+  title: Árak és feltételek
+  description: A személyre szabott közös munkát coaching szemléletű üzleti tanácsadás keretében nyújtom. Ha esetleg a te kérdésed ebbe nem fér bele, nincs semmi gond! Örömmel javaslok majd neked másik, neked megfelelőbb szakembert az ismeretségi körömből.
+  items:
+    - title: Első konzultáció
+      price: Ingyenes
+    - title: Online alkalom
+      price: Egyéni megbeszélés alapján, havonta számlázva
+
+about:
+  title: Gyakorlati tapasztalatom van
+  description: Apa vagyok, férj vagyok és immár nyolc éve vezetek egy általam alapított vállalkozást. Az önismerettel a cégalapítás előtt kezdtem el foglalkozni és ez a szerelem azóta is tart. Hiszek a fejlődésben és a belső növekedésben. Coaching szemléletű tanácsadóként három éve segítek másoknak is önazonosabbnak és eredményesebbnek lenni.
