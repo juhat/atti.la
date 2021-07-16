@@ -13,6 +13,8 @@ Bridgetown requires blog post files to be named according to the following forma
 
 Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `EXT` is the file extension representing the format used in the file (for example, `md` for Markdown). After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
+<img src="/assets/sample.jpg" class="object-cover object-center rounded-lg" />
+
 Bridgetown also offers powerful support for code snippets:
 
 ```ruby

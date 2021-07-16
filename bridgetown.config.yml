@@ -4,3 +4,6 @@ content_engine: resource
 permalink: pretty
 timezone: Europe/Budapest
 
+#pagination:
+#  enabled: true
+#  collection: posts

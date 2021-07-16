@@ -1,9 +1,9 @@
 actions:
   order:
-    title: Foglalj ingyenes online konzultációt!
+    title: Beszéljünk!
     url: https://savvycal.com/juhat/elso-coaching
   know_more:
-    title: Tudj meg többet!
+    title: Bővebben
     url: /coaching-szemleletu-tanacsadas/
 
 headline:
@@ -12,10 +12,10 @@ headline:
 
 offers:
   items:
-    - title: Coaching szemléletű tanácsadás
+    - title: Coaching
       description: Vegyél részt egy megoldás fókuszú beszélgetés sorozatban velem! Meghallgatlak, visszajelzek, követlek és segítek tartani az irányt.
     - title: Önismereti munka
-      description: Minden változás visszajelzéssel jár. Minden új tudás hozzásegíthet téged, hogy önazonosabb és boldogabb lehess. Ezen dolgozunk majd.
+      description: Minden változás visszajelzéssel jár. Minden új tudás hozzásegíthet téged, hogy önazonosabb és boldogabb lehess.
     - title: Relaxáció
       description: Van amikor erőből nem megy. Relaxációs technikákkal segítek neked feltöltődni, hogy arra fókuszálhasd a figyelmed és az energiád amire szükséges.
 
@@ -53,7 +53,7 @@ topics:
 
 pricing:
   title: Árak és feltételek
-  description: A személyre szabott közös munkát coaching szemléletű üzleti tanácsadás keretében nyújtom. Ha esetleg a te kérdésed ebbe nem fér bele, nincs semmi gond! Örömmel javaslok majd neked másik, neked megfelelőbb szakembert az ismeretségi körömből.
+  description: A személyre szabott közös munkát coaching szemléletű üzleti tanácsadás keretében nyújtom. Ha esetleg a te kérdésed ebbe nem fér bele, nincs semmi gond! Örömmel javaslok majd neked másik, neked megfelelőbb szakembert. <br><br> Első coaching beszélgetés ingyenes (30 perc). A további alkalmakat egyéni megbeszélés alapján, havonta számlázom.
   items:
     - title: Első konzultáció
       price: Ingyenes

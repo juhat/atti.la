@@ -11,12 +11,19 @@
     </style>
   </head>
   <body class="{{ page.layout }} {{ page.page_class }}">
-    {% render "navbar", metadata: site.metadata, page: page %}
+    {% render "navbar", metadata: site.metadata, page: page, savvy_url: site.data.coaching.actions.order.url %}
 
     <main>
       {{ content }}
     </main>
 
     {% render "footer", metadata: site.metadata %}
+
+    <script>window.SavvyCal=window.SavvyCal||function(){(SavvyCal.q=SavvyCal.q||[]).push(arguments)};</script>
+    <script async src="https://embed.savvycal.com/v1/embed.js"></script>
+    <script>
+      SavvyCal('init')
+    </script>
+
   </body>
 </html>

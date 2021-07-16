@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Posts
-permalink: /posts/
+permalink: /blog/
+pagination:
+    collection: posts
 ---
 
 <section class="text-gray-600 body-font overflow-hidden">
@@ -11,13 +13,13 @@ permalink: /posts/
 
             <div class="py-8 flex flex-wrap md:flex-nowrap">
                 <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    {% comment %}<span class="font-semibold title-font text-gray-700">CATEGORY</span>{% endcomment %}
+                    <span class="font-semibold title-font text-gray-700">{{ post.categories }}</span>
                     <span class="mt-1 text-gray-500 text-sm">{{ post.date | date_to_string }}</span>
                 </div>
                 <div class="md:flex-grow">
                     <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">{{ post.title }}</h2>
-                    <p class="leading-relaxed">{{ post.excerpt }}</p>
-                    <a href="{{ post.permalink }}" class="text-indigo-500 inline-flex items-center mt-4">Tovább
+                    {% comment %}<p class="leading-relaxed">{{ post.excerpt }}</p>{% endcomment %}
+                    <a href="{{ post.relative_url }}" class="text-gray-500 inline-flex items-center mt-4">Tovább
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M5 12h14"></path>
                             <path d="M12 5l7 7-7 7"></path>

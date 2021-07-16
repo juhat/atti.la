@@ -4,8 +4,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
 
-title: Juhász Attila
+title: Juhász Attila coach
 tagline: Coaching szemléletű tanácsadás és önismereti munka
 email: juhasz@atti.la
 description: >- # this means to ignore newlines until "baseurl:"
   Nem vagy egyedül a céljaid felé haladó úton! A közös munka során a coaching szemléletű tanácsadás és az önismereti munka személyre szabott elegyét kínálom.
+feed:
+  collections:
+    - posts
