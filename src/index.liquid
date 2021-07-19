@@ -3,153 +3,48 @@ layout: home
 title: Nem vagy egyedül a céljaid felé haladó úton
 pagination:
   collection: posts
----
 
-<section class="text-gray-600 body-font">
-  <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img class="object-cover object-center rounded-lg" alt="hero" src="images/attila.jpg">
-    </div>
-    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 underline">
-        {{ site.data.coaching.headline.title }}
-      </h1>
-      <p class="mb-8 leading-relaxed">
-        {{ site.data.coaching.headline.description }}
-      </p>
-      <div class="flex justify-center">
-        <a data-savvycal-embed href="{{ site.data.coaching.actions.order.url }}" class="inline-flex text-gray-100 bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded text-lg">
-            {{ site.data.coaching.actions.order.title }}
-        </a>
-        <a href="{{ site.data.coaching.actions.know_more.url }}" class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-            {{ site.data.coaching.actions.know_more.title }}
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
+headline:
+  title: Nem vagy egyedül a céljaid felé haladó úton
+  description: A közös munka során a coaching szemléletű tanácsadás és az önismereti munka személyre szabott elegyét kínálom. Egy ingyenes konzultációs alkalom után, majd 4-6 alkalom marad arra, hogy lerakjuk a közös munka kereteit. Ezek az alkalmak tökéletesek arra, hogy átbeszéld velem azt, hogy hova tartasz.
+
+about:
+  subtitle: Dióhéjban
+  title: Röviden rólam
+  items:
+    - name: Az App Maintainers technikai vezetője vagyok
+      description: Élénken él a fejemben az a kép, ahogyan Erdős Bence barátommal az első közös projektünk megbeszélésére igyekszünk. Azóta már eltelt nyolc év és az első projektet több mint 50 másik követte.
+      image: /assets/am-logo.png
+      url: https://AppMaintainers.com
+      url_title: App Maintainers weboldal
+    - name: A Feel Powered! alapítója vagyok
+      description: Coachként különösen érdekelni kezdett, hogy ki és miért érzi jól magát abban a munkában amit végez. Haladó szellemű partnereinknek abban segítünk, hogy megtartsák a munkatársaikat.
+      image: /assets/fp-logo.png
+      url: https://FeelPowered.com
+      url_title: Feel Powered! weboldal
+
+services:
+  subtitle: Fókuszban a fejlődés
+  title: Amivel hozzám fordulhatsz
+  items:
+    - name: Megoldásfókuszú coaching
+      description: Csodálattal vegyes áhitattal figyelem, amikor valaki olyan dologra válik képessé, amiről korábban álmodni sem mert volna. A coaching során lelki személyi edződként segítelek a saját folyamatodban.
+      link: more
+    - name: IT karrier mentorálás
+      description: Bioinformatikusként végeztem az egyetemen, majd végigjártam a teljes IT ranglétát. Cégvezetőként rálátok az iparág gyakorlatára. Erre támaszkodva tudlak segíteni, tarts bárhol az utadon.
+      link: order
+    - name: Kezdő vállalkozó mentorálás
+      description: Vállalkozó családba születtem. Talán ennek köszönhetem az érdeklődésemet és a bátorságomat. Nyolc éve vezetek egy általam alapított vállalkozást. Erre a tapasztalatra építve tudlak támogatni.
+      link: order
+
+---
+{% render "headline", headline: page.data.headline, order: site.data.coaching.actions.order, know_more: site.data.coaching.actions.know_more %}
 
 {% comment %}{% render "posts", posts: collections.posts %}{% endcomment %}
 
+{% render "about", about: page.data.about %}
 
-<section class="text-gray-600 body-font">
-  <div class="container px-5 py-12 mx-auto flex flex-wrap">
-    <div class="flex flex-col text-left w-full mb-20">
-      <h2 class="text-xs text-gray-500 tracking-widest font-medium title-font mb-1 uppercase">Dióhéjban</h2>
-      <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">Röviden rólam</h1>
-    </div>
-    <div class="flex flex-wrap -m-4">
-      <div class="p-4 lg:w-1/2 md:w-full">
-        <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col bg-gray-50">
-          <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-400 text-gray-500 flex-shrink-0">
-            <img src="/assets/am-logo.png" class="object-cover object-center rounded-full"/>
-          </div>
-          <div class="flex-grow">
-            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Az App Maintainers technikai vezetője vagyok</h2>
-            <p class="leading-relaxed text-base">Élénken él a fejemben az a kép, ahogyan Erdős Bence barátommal az első közös projektünk megbeszélésére igyekszünk. Azóta már eltelt nyolc év és az első projektet több mint 50 másik követte.</p>
-            <a href="https://AppMaintainers.com" target="_blank" class="mt-3 text-gray-500 inline-flex items-center">App Maintainers weboldal
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="p-4 lg:w-1/2 md:w-full">
-        <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col bg-gray-50">
-          <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-400 text-gray-500 flex-shrink-0">
-            <img src="/assets/fp-logo.png" class="object-cover object-center rounded-full"/>
-          </div>
-          <div class="flex-grow">
-            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">A Feel Powered! alapítója vagyok</h2>
-            <p class="leading-relaxed text-base">Coachként különösen érdekelni kezdett, hogy ki és miért érzi jól magát abban a munkában amit végez. Haladó szellemű partnereinknek abban segítünk, hogy megtartsák a munkatársaikat.</p>
-            <a href="https://FeelPowered.com" target="_blank" class="mt-3 text-gray-500 inline-flex items-center">Feel Powered! weboldal
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% render "services", services: page.data.services, order: site.data.coaching.actions.order, know_more: site.data.coaching.actions.know_more %}
 
-<section class="text-gray-600 body-font">
-  <div class="container px-5 py-12 mx-auto">
-    <div class="flex flex-col text-left w-full mb-20">
-      <h2 class="text-xs text-gray-500 tracking-widest font-medium title-font mb-1 uppercase">Fókuszban a fejlődés</h2>
-      <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">Amivel hozzám fordulhatsz</h1>
-    </div>
-    <div class="flex flex-wrap -m-4">
-      <div class="p-4 lg:w-1/3">
-        <div class="flex rounded-lg h-full bg-gray-50 p-8 flex-col">
-          <div class="flex items-center mb-3">
-            <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-gray-500 text-white flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                <circle cx="12" cy="7" r="4"></circle>
-              </svg>
-            </div>
-            <h2 class="text-gray-900 text-lg title-font font-medium underline">Megoldásfókuszú coaching</h2>
-          </div>
-          <div class="flex-grow">
-            <p class="leading-relaxed text-base">
-              Csodálattal vegyes áhitattal figyelem, amikor valaki olyan dologra válik képessé, amiről korábban álmodni sem mert volna. A coaching során lelki személyi edződként segítelek a saját folyamatodban.
-            </p>
-            <a data-savvycal-embed href="{{ site.data.coaching.actions.know_more.url }}" class="mt-3 text-gray-500 inline-flex items-center">{{ site.data.coaching.actions.know_more.title }}
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="p-4 lg:w-1/3">
-        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-          <div class="flex items-center mb-3">
-            <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-gray-500 text-white flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-              </svg>
-            </div>
-            <h2 class="text-gray-900 text-lg title-font font-medium">IT karrier mentorálás</h2>
-          </div>
-          <div class="flex-grow">
-            <p class="leading-relaxed text-base">Bioinformatikusként végeztem az egyetemen, majd végigjártam a teljes IT ranglétát. Cégvezetőként rálátok az iparág gyakorlatára. Erre támaszkodva tudlak segíteni, tarts bárhol az utadon.</p>
-            <a data-savvycal-embed href="{{ site.data.coaching.actions.order.url }}" class="mt-3 text-gray-500 inline-flex items-center">{{ site.data.coaching.actions.order.title }}
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="p-4 lg:w-1/3">
-        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-          <div class="flex items-center mb-3">
-            <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-gray-500 text-white flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <circle cx="6" cy="6" r="3"></circle>
-                <circle cx="6" cy="18" r="3"></circle>
-                <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-              </svg>
-            </div>
-            <h2 class="text-gray-900 text-lg title-font font-medium">Kezdő vállalkozó mentorálás</h2>
-          </div>
-          <div class="flex-grow">
-            <p class="leading-relaxed text-base">
-              Vállalkozó családba születtem. Talán ennek köszönhetem az érdeklődésemet és a bátorságomat. Nyolc éve vezetek egy általam alapított vállalkozást. Erre a tapasztalatra építve tudlak támogatni.
-            </p>
-            <a data-savvycal-embed href="{{ site.data.coaching.actions.order.url }}" class="mt-3 text-gray-500 inline-flex items-center">{{ site.data.coaching.actions.order.title }}
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
