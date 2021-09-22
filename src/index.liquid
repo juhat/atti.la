@@ -40,11 +40,8 @@ services:
 ---
 {% render "headline", headline: page.data.headline, order: site.data.coaching.actions.order, know_more: site.data.coaching.actions.know_more %}
 
-{% render "posts", posts: collections.posts %}
+<!-- {% render "posts", posts: collections.posts %} -->
 
 {% render "about", about: page.data.about %}
 
 {% render "services", services: page.data.services, order: site.data.coaching.actions.order, know_more: site.data.coaching.actions.know_more %}
-
-
-
