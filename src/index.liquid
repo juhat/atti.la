@@ -40,7 +40,7 @@ services:
 ---
 {% render "headline", headline: page.data.headline, order: site.data.coaching.actions.order, know_more: site.data.coaching.actions.know_more %}
 
-{% comment %}{% render "posts", posts: collections.posts %}{% endcomment %}
+{% render "posts", posts: collections.posts %}
 
 {% render "about", about: page.data.about %}
 
