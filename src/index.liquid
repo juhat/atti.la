@@ -30,17 +30,27 @@ services:
     - name: Megoldásfókuszú coaching
       description: Csodálattal vegyes áhitattal figyelem, amikor valaki olyan dologra válik képessé, amiről korábban álmodni sem mert volna. A coaching során lelki személyi edződként segítelek a saját folyamatodban.
       link: more
-    - name: IT karrier mentorálás
-      description: Bioinformatikusként végeztem az egyetemen, majd végigjártam a teljes IT ranglétát. Cégvezetőként rálátok az iparág gyakorlatára. Erre támaszkodva tudlak segíteni, tarts bárhol az utadon.
-      link: order
-    - name: Kezdő vállalkozó mentorálás
-      description: Vállalkozó családba születtem. Talán ennek köszönhetem az érdeklődésemet és a bátorságomat. Nyolc éve vezetek egy általam alapított vállalkozást. Erre a tapasztalatra építve tudlak támogatni.
-      link: order
+
+projects:
+  subtitle: Amire még jelentkezhetsz
+  title: Aktuális projektek
+  items:
+    - name: Férfikör 2021/I (önismeret, apaság fókusz)
+      description: Ez egy megosztás alapú férfi csoport, amely segít elmélyülni a jelenben, fókuszt találni és megosztani a mindennapok kihívásait.
+      link: circle_of_man
+    - name: Férfitábor I (június 29. - július 3.)
+      description: Hogyan találkozol önmagaddal? Hol és mikor van időd megállni? És hogyan vagy belül? Hogyan lehet embernek maradnod? Úgy élni, amiért érdemes?
+      link: email
+    - name: Férfitábor II (július 8. - július 12.)
+      description: Hogyan találkozol önmagaddal? Hol és mikor van időd megállni? És hogyan vagy belül? Hogyan lehet embernek maradnod? Úgy élni, amiért érdemes?
+      link: email
 
 ---
 {% render "headline", headline: page.data.headline, order: site.data.coaching.actions.order, know_more: site.data.coaching.actions.know_more %}
 
 <!-- {% render "posts", posts: collections.posts %} -->
+
+{% render "projects", services: page.data.projects, order: site.data.coaching.actions.order, know_more: site.data.coaching.actions.know_more, email: site.data.coaching.actions.email, circle_of_man: site.data.coaching.actions.circle_of_man %}
 
 {% render "about", about: page.data.about %}
 

@@ -5,6 +5,12 @@ actions:
   know_more:
     title: Bővebben
     url: /coaching-szemleletu-tanacsadas/
+  circle_of_man:
+    title: Bővebben
+    url: /ferfikor/
+  email:
+    title: Jelentkezés email-ben
+    url: mailto:juhasz@atti.la
 
 headline:
   title: Nem vagy egyedül a céljaid felé haladó úton
@@ -63,3 +69,32 @@ pricing:
 about:
   title: Gyakorlati tapasztalatom van
   description: Apa vagyok, férj vagyok és immár nyolc éve vezetek egy általam alapított vállalkozást. Az önismerettel a cégalapítás előtt kezdtem el foglalkozni és ez a szerelem azóta is tart. Hiszek a fejlődésben és a belső növekedésben. Coaching szemléletű tanácsadóként három éve segítek másoknak is önazonosabbnak és eredményesebbnek lenni.
+
+circle_of_man:
+  items:
+    - title: Megosztás
+      description: A férfikörben biztonságban megoszthatod ami foglalkoztat. Meghallgatunk és megtartunk.
+    - title: Elmélyülés
+      description: A biztonság teret nyit arra, hogy befele figyelhess és sokat tanulhatsz a többiek megosztásából is.
+    - title: Fókusz
+      description: A csoport segít neked feltöltődni és abban, hogy arra fókuszálhasd a figyelmed és az energiád amire szükséges.
+
+circle_of_man_expectations:
+  title: Mit várhatsz a csoporttól?
+  description: Jó együtt lenni és figyelni arra ami van. Lehetsz itt férfiként, apaként, társként, vezetőként, szakemberként. Bármilyen szerepedben van szükséged térre, itt megkapod a figyelmet, hogy fejlődhess benne.
+  items:
+    - title: Teret kapsz a növekedéshez
+    - title: Mélyül az önismereted
+    - title: Melletted állunk
+    - title: Meghallgatunk és megértünk ítélkezés nélkül
+    - title: A választási lehetőségeid száma nőni fog
+    - title: Megünnepeljük veled a sikereket
+
+circle_of_man_pricing:
+  title: Árak és feltételek
+  description: Találkozunk 5x, minden hónap első szerda estéjén 19:00 - 21:30 között. Egy alkalom 150 perc (2,5 óra). Alkalmanként 5000Ft a hozzájárulási díj. A csoporthoz való csatlakozást egy rövid interjúbeszélgetés előzi meg. Az első alalom 2021. február 2. szerda 19:00. Cím - 1115, Budapest, Ildikó utca 24. (App Maintainers csengő). Arra kérünk, vigyázz a többiek egészségére és hagyj magadnak időt a gyógyulásra - betegen ne gyere el.
+  items:
+    - title: Első konzultáció
+      price: Ingyenes
+    - title: Online alkalom
+      price: Egyéni megbeszélés alapján, havonta számlázva
