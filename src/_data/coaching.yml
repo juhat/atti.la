@@ -9,12 +9,27 @@ actions:
     title: Bővebben
     url: /ferfikor/
   email:
-    title: Jelentkezés! (juhasz@atti.la, +36304910156)
+    title: Jelentkezés várólistára!
     url: mailto:juhasz@atti.la
 
 headline:
   title: Nem vagy egyedül a céljaid felé haladó úton
   description: A közös munka során a coaching szemléletű tanácsadás és az önismereti munka személyre szabott elegyét kínálom. Egy ingyenes konzultációs alkalom után, majd 4-6 alkalom marad arra, hogy lerakjuk a közös munka kereteit. Ezek az alkalmak tökéletesek arra, hogy átbeszéld velem azt, hogy hova tartasz.
+
+about:
+  subtitle: Dióhéjban
+  title: Röviden rólam
+  items:
+    - name: Az App Maintainers technikai vezetője vagyok
+      description: Élénken él a fejemben az a kép, ahogyan Erdős Bence barátommal az első közös projektünk megbeszélésére igyekszünk. Azóta már eltelt nyolc év és az első projektet több mint 50 másik követte.
+      image: /assets/am-logo.png
+      url: https://AppMaintainers.com
+      url_title: App Maintainers weboldal
+    - name: A Feel Powered! alapítója vagyok
+      description: Coachként különösen érdekelni kezdett, hogy ki és miért érzi jól magát abban a munkában amit végez. Haladó szellemű partnereinknek abban segítünk, hogy megtartsák a munkatársaikat.
+      image: /assets/fp-logo.png
+      url: https://FeelPowered.com
+      url_title: Feel Powered! weboldal
 
 offers:
   items:
@@ -66,7 +81,7 @@ pricing:
     - title: Online alkalom
       price: Egyéni megbeszélés alapján, havonta számlázva
 
-about:
+about2:
   title: Gyakorlati tapasztalatom van
   description: Apa vagyok, férj vagyok és immár nyolc éve vezetek egy általam alapított vállalkozást. Az önismerettel a cégalapítás előtt kezdtem el foglalkozni és ez a szerelem azóta is tart. Hiszek a fejlődésben és a belső növekedésben. Coaching szemléletű tanácsadóként három éve segítek másoknak is önazonosabbnak és eredményesebbnek lenni.
 

@@ -8,21 +8,6 @@ headline:
   title: Nem vagy egyedül a céljaid felé haladó úton
   description: A közös munka során a coaching szemléletű tanácsadás és az önismereti munka személyre szabott elegyét kínálom. Egy ingyenes konzultációs alkalom után, majd 4-6 alkalom marad arra, hogy lerakjuk a közös munka kereteit. Ezek az alkalmak tökéletesek arra, hogy átbeszéld velem azt, hogy hova tartasz.
 
-about:
-  subtitle: Dióhéjban
-  title: Röviden rólam
-  items:
-    - name: Az App Maintainers technikai vezetője vagyok
-      description: Élénken él a fejemben az a kép, ahogyan Erdős Bence barátommal az első közös projektünk megbeszélésére igyekszünk. Azóta már eltelt nyolc év és az első projektet több mint 50 másik követte.
-      image: /assets/am-logo.png
-      url: https://AppMaintainers.com
-      url_title: App Maintainers weboldal
-    - name: A Feel Powered! alapítója vagyok
-      description: Coachként különösen érdekelni kezdett, hogy ki és miért érzi jól magát abban a munkában amit végez. Haladó szellemű partnereinknek abban segítünk, hogy megtartsák a munkatársaikat.
-      image: /assets/fp-logo.png
-      url: https://FeelPowered.com
-      url_title: Feel Powered! weboldal
-
 services:
   subtitle: Fókuszban a fejlődés
   title: Amivel hozzám fordulhatsz
@@ -48,10 +33,10 @@ projects:
 ---
 {% render "headline", headline: page.data.headline, order: site.data.coaching.actions.order, know_more: site.data.coaching.actions.know_more %}
 
-<!-- {% render "posts", posts: collections.posts %} -->
-
 {% render "projects", services: page.data.projects, order: site.data.coaching.actions.order, know_more: site.data.coaching.actions.know_more, email: site.data.coaching.actions.email, circle_of_man: site.data.coaching.actions.circle_of_man %}
 
-{% render "about", about: page.data.about %}
+{% render "posts", posts: collections.posts %}
 
-{% render "services", services: page.data.services, order: site.data.coaching.actions.order, know_more: site.data.coaching.actions.know_more %}
+{% render "about", about: site.data.coaching.about %}
+
+{% comment %}{% render "services", services: page.data.services, order: site.data.coaching.actions.order, know_more: site.data.coaching.actions.know_more %}{% endcomment %}
