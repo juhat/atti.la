@@ -9,7 +9,7 @@ actions:
     title: Bővebben
     url: /ferfikor/
   email:
-    title: Jelentkezés várólistára!
+    title: Jelentkezés!
     url: mailto:juhasz@atti.la
 
 headline:
@@ -91,7 +91,7 @@ circle_of_man:
       description: A férfikörben biztonságban megoszthatod ami foglalkoztat. Meghallgatunk és megtartunk.
     - title: Elmélyülés
       description: A biztonság teret nyit arra, hogy befele figyelhess. Sokat tanulhatsz a többiek megéléséből is.
-    - title: Fókusz
+    - title: Megoldás fókusz
       description: A csoport segít neked feltöltődni. Így arra fókuszálhatod a figyelmed amire szükséges.
 
 circle_of_man_expectations:
@@ -104,8 +104,10 @@ circle_of_man_expectations:
     - title: Meghallgatunk és megértünk ítélkezés nélkül
     - title: A választási lehetőségeid száma nőni fog
     - title: Megünnepeljük veled a sikereket
+    - title: Magabiztosabb leszel a saját megéléseid kifejezésében
+    - title: Fejlődni fog az önreflexiód
 
 circle_of_man_pricing:
   title: Árak és feltételek
-  description: Találkozunk 5x, minden hónap első csütörtök estéjén 19:00 - 21:30 között. Egy alkalom 150 perc (2,5 óra). Alkalmanként 5000Ft a hozzájárulási díj. A csoporthoz való csatlakozást egy rövid interjúbeszélgetés előzi meg. Az első alalom 2022. február 3-án csütörtökön 19:00 és 21:00 között lesz. Cím - 1115, Budapest, Ildikó utca 24. (App Maintainers csengő). Arra kérünk, vigyázz a többiek egészségére és hagyj magadnak időt a gyógyulásra - betegen ne gyere el.
+  description: Találkozunk 9x, minden hónap XXX csütörtök estéjén 19:00 - 23:00 között, ebből a vezetett program 22:30-ig tart. A csoport maximum 14 résztvevővel indul, az első alkalom után elköteleződünk.  Alkalmanként 20.000 Ft a hozzájárulási díj - elköteleződés után számítunk a hozzájárulásodra lemondástól függetlenül. A számlázás havonta történik. A csoporthoz való csatlakozást egy rövid interjúbeszélgetés előzi meg. Az első alkalom 2022. szeptember XXX-án csütörtökön 19:00 és 23:00 között lesz. Cím - 1115, Budapest, Ildikó utca 24. (App Maintainers csengő). Arra kérünk, vigyázz a többiek egészségére és hagyj magadnak időt a gyógyulásra - betegen ne gyere el. Maszk viselése opcionális, nem okoz gondot ha úgy döntesz, hogy használod.
 
