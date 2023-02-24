@@ -20,18 +20,15 @@ projects:
   subtitle: Amire még jelentkezhetsz
   title: Aktuális projektek
   items:
-    - name: Férfikör 2022 ősz (stabilitásom, erősségeim, rugalmasságom)
+    - name: Férfitábor - 2023 nyár
+      description: A világ kiszámíthatatlan változásai közepette a fix stabilitast ado belso es kulso pontok tudatositasa.
+      link: email
+    - name: Férfikör 2022 ősz
       description: A férfi csoport segít elmélyülni a jelenben, fókuszt találni a jövőre nézve és megosztani a mindennapok kihívásait. Olyan egyéni fejlődésre fókuszáló támogató közösség, amely havonta tart találkozókat. Célja, hogy a biztonságos tér lehetővé tegye a reflexiót, a feltöltődést és segítsen az egyéni célok felé való haladásban.
       link: circle_of_man
-    - name: Alaptábor - rendszeres heti standup személyes célokról
-      description: Hétfőként 16:00-17:00 között tartok egy struktúrált alkalmat arra, hogy ránézhess a saját céljaidra és beszámolhass a haladásodról a csoportnak. Miért jó ez neked? Segít fókuszban maradnod és a heti visszajelzés megerősít abban amit csinálsz.
-      link: email
-    - name: Férfitábor - 2022 ősz
-      description: Az életünk ezekben az években hasonlít egy gyorsan kavargó folyóban való lépdelésre. Erősen áramlik, örvények is vannak a vízben. Ha egy helyben maradnál, akkor is elképzelhető, hogy kimossa a talajt alólad a víz. Haladni sem könnyű, minden mozdulatot érdemes újra megfontolni. Lépünk – élünk, újratervezünk. Ebben a táborban férfiakból álló védett térben dolgozhatsz azon, hogy a magabiztos haladáshoz megtaláld a szükséges belső stabilitást.
-      link: email
 
 ---
-{% render "headline", headline: page.data.headline, order: site.data.coaching.actions.order, know_more: site.data.coaching.actions.know_more %}
+{% render "headline", headline: page.data.headline, order: site.data.coaching.actions.order, know_more: site.data.coaching.actions.know_more, email: site.data.coaching.actions.email %}
 
 {% render "projects", services: page.data.projects, order: site.data.coaching.actions.order, know_more: site.data.coaching.actions.know_more, email: site.data.coaching.actions.email, circle_of_man: site.data.coaching.actions.circle_of_man %}
 
